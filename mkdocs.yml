@@ -11,21 +11,8 @@ theme:
   name: material
   # custom_dir: 
   features:
-    - content.action.edit
-    - content.action.view
-    - content.code.annotate
-    - content.code.copy
-    - content.tooltips
     - navigation.tabs
-    - navigation.sections
-    - navigation.footer
-    - navigation.indexes
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    - toc.follow
+
   palette:
     # Dark Mode
     - scheme: slate
@@ -69,11 +56,11 @@ markdown_extensions:
       alternate_style: true
 
 # Page tree
-nav:
-  - Home: index.md
-  - Getting Started:
-    - Code Examples: code-examples.md
-    - Content Tabs: content-tabs.md
-  - Mod Guides:
-    - Mod Guides: mods/README.md
-    - Lucky Duck's Fortune Cookies: mods/luckyduckfortunecookie/README.md
+# nav:
+#   - Home: index.md
+#   - Getting Started:
+#     - Code Examples: code-examples.md
+#     - Content Tabs: content-tabs.md
+#   - Mod Guides:
+#     - Mod Guides: mods/README.md
+#     - Lucky Duck's Fortune Cookies: mods/luckyduckfortunecookie/README.md
