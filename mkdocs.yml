@@ -65,6 +65,9 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
+  - awesome-pages:
+      collapse_single_pages: true
+      strict: true
 
 # Page tree
 # nav:
