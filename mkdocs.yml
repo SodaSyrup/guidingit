@@ -68,6 +68,13 @@ plugins:
   - awesome-pages:
       collapse_single_pages: true
       strict: true
+  - git-authors:
+      show_email_address: false
+      sort_authors_by: contribution
+      fallback_to_empty: true
+      show_contribution: true
+      strict: !ENV [ ENABLE_STRICT_GIT_AUTHORS, false ]
+      enabled: !ENV [ ENABLE_GIT_AUTHORS, false ]
 
 # Page tree
 # nav:
