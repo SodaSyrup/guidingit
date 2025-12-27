@@ -1,7 +1,7 @@
 nav:
  - <b>Pack Guides</b>:
    - Home: README.md
-   - Homestead: homestead
    - Shenanigans: shenanigans
+   - Homestead: homestead
  - Mod Guides: mods
  - Help: help
