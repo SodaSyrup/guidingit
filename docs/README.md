@@ -28,7 +28,7 @@ Allocating between **8-12GB** RAM is required for most of our packs. Smaller (_L
 
 ### Launchers
 
-The most common launchers are [CurseForge](https://www.curseforge.com/download/app), [FTB App](https://www.feed-the-beast.com/ftb-app), [PolyMC](https://polymc.org/), [Prism](https://prismlauncher.org/), [ATLauncher](https://atlauncher.com/) and [GDLauncher](https://gdlauncher.com/en/). You will need one of these launchers to install packs. Sign into your **Microsoft** account and search for the modpack of your choice to install.
+The most common launchers are [Prism](https://prismlauncher.org/) and [ATLauncher](https://atlauncher.com/). You will need one of these launchers to install packs. Sign into your **Microsoft** account and search for the modpack of your choice to install.
 
 !!! Info "Allocation"
 
