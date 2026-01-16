@@ -69,20 +69,16 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
-  - awesome-nav:
+  - awesome-nav
   - git-authors:
       show_email_address: false
       sort_authors_by: contribution
       fallback_to_empty: true
       show_contribution: true
-      strict: !ENV [ ENABLE_STRICT_GIT_AUTHORS, false ]
-      enabled: !ENV [ ENABLE_GIT_AUTHORS, false ]
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
       fallback_to_build_date: false
-      strict: !ENV [ ENABLE_STRICT_GIT_REVISION_DATE, false ]
-      enabled: !ENV [ ENABLE_GIT_REVISION_DATE, false ]
   - minify:
       minify_html: !ENV [ ENABLE_MINIFY, false ]
       minify_js: !ENV [ ENABLE_MINIFY, false ]
