@@ -41,5 +41,3 @@ The most common launchers are [CurseForge](https://www.curseforge.com/download/a
 ---
 
 > Shenanigans | [GitHub](https://github.com/SodaSyrup/shenanigans) | [Discord](https://discord.gg/RPEz5JX4EM)
-
-{{ git_page_authors }}
