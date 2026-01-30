@@ -8,7 +8,7 @@ description: Guides For Shenanigans Mod Pack!
 To the new **Guides**, by **Salad**.
 
 ???+ Tip "placeholder text?"
-    Lorem Ipsum. Lorem Ipsum. However guides in the [Additional Guides](mods/README.md) should work for any pack with said mod.
+    Lorem Ipsum. Lorem Ipsum. However,. guides in the [Additional Guides](mods/README.md) should work for any pack with said mod.
 
 ## Intro
 
