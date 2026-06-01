@@ -16,3 +16,6 @@ Right now, you can spawn them in using this command:
 ```text
 /give @p plushie-friends:plushie{BlockEntityTag:{PlushieOwner:"PLAYER NAME"}}
 ```
+
+
+> Plushie Friends | [Modrinth](https://modrinth.com/mod/plushie-friend) | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/plushie-friends) | [GitHub](https://github.com/Syrup-Studios/plushie-friends)

@@ -7,4 +7,6 @@ Nixos:
 
 `mkdocs serve`
 
-i added this so i can build again lol
+Cachyos:
+
+`source venv/bin/activate.fish`
