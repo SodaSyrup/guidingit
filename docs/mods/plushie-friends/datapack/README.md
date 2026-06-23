@@ -61,7 +61,7 @@ Example file: `data/mymodpack/plushies/salad_plushie.json`
 
 ## 3. Adding Plushies to Loot Tables
 
-To make your pre-defined plushie drop from chests or blocks, you must use the custom loot function `plushie-friends:set_plushie` inside a loot table.
+To make your pre-defined plushie drop from chests or blocks, you must use the custom loot function `plushie_friends:set_plushie` inside a loot table.
 
 Example file overwriting the vanilla abandoned mineshaft chest: `data/minecraft/loot_tables/chests/abandoned_mineshaft.json`
 
@@ -74,10 +74,10 @@ Example file overwriting the vanilla abandoned mineshaft chest: `data/minecraft/
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plushie-friends:plushie",
+          "name": "plushie_friends:plushie",
           "functions": [
             {
-              "function": "plushie-friends:set_plushie",
+              "function": "plushie_friends:set_plushie",
               "id": "mymodpack:salad_plushie"
             }
           ]
@@ -89,5 +89,5 @@ Example file overwriting the vanilla abandoned mineshaft chest: `data/minecraft/
 ```
 
 ### Loot Function Details
-* `function`: Always set this to `plushie-friends:set_plushie`.
+* `function`: Always set this to `plushie_friends:set_plushie`.
 * `id`: The full resource identifier of your plushie definition file (`<namespace>:<plushie_id>`).
