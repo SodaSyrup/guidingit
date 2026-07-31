@@ -3,19 +3,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="placehilder page">
+        <meta name="description" content="Learn how to create, register, read, validate, and reload a JSON5 config with Syrup Library.">
       
       
         <meta name="author" content="Soda/Salad">
       
       
-        <link rel="canonical" href="https://sodasyrup.github.io/guidingit/mods/luckyduckfortunecookie/test/">
+        <link rel="canonical" href="https://sodasyrup.github.io/guidingit/mods/syrup_library/config/">
       
       
         <link rel="prev" href="../">
       
       
-        <link rel="next" href="../../viaromana/">
+        <link rel="next" href="../../plushie-friends/">
       
       
         
@@ -26,7 +26,7 @@
     
     
       
-        <title>Test - Straight up Guiding it</title>
+        <title>Configs - Straight up Guiding it</title>
       
     
     
@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#use-configs-in-your-mod" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -121,7 +126,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Test
+              Configs
             
           </span>
         </div>
@@ -2008,6 +2013,8 @@
                 
   
   
+    
+  
   
   
     
@@ -2026,15 +2033,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked="">
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../syrup_library/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -2058,7 +2065,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2075,6 +2082,8 @@
                 
   
   
+    
+  
   
   
     
@@ -2091,15 +2100,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" checked="">
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../syrup_library/config/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   
@@ -2118,7 +2127,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2362,8 +2371,6 @@
                 
   
   
-    
-  
   
   
     
@@ -2382,15 +2389,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked="">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5">
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../luckyduckfortunecookie/" class="md-nav__link ">
               
   
   
@@ -2414,7 +2421,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2431,17 +2438,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../luckyduckfortunecookie/test/" class="md-nav__link">
         
   
   
@@ -2457,7 +2457,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -3199,8 +3198,124 @@
   -->
   
   
+    
+  
 
   <!-- Table of contents title and list -->
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      <b>Table Of Contents</b>
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#create-a-config-specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create a config specification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#register-the-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Register the config
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#read-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Read values
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Read values">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#read-one-fixed-set-of-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Read one fixed set of values
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reload-the-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reload the file
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restart-only-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Restart-only values
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-value-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Available value types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invalid-and-missing-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Invalid and missing data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-more-than-one-config-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use more than one config file
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+    
   
 </nav>
 
@@ -3222,9 +3337,355 @@
   
 
 
-  <h1>Test</h1>
-
-<p>placehilder page</p>
+<h1 id="use-configs-in-your-mod">Use configs in your mod<a class="headerlink" href="#use-configs-in-your-mod" title="Permanent link">¶</a></h1>
+<p>This guide explains how to use the Syrup Library config system. First, <a href="../#add-syrup-library">add Syrup Library to your mod</a>.</p>
+<p>A config specification defines the sections, values, defaults, and limits in one config file. This guide uses the term <strong>specification</strong> for this definition.</p>
+<h2 id="create-a-config-specification">Create a config specification<a class="headerlink" href="#create-a-config-specification" title="Permanent link">¶</a></h2>
+<p>Put the config specification in one class. Each value method returns a value handle. A value handle is a Java object that supplies one config value.</p>
+<p>This example creates <code>config/example_mod.json5</code>:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">package</span><span class="w"> </span><span class="nn">com.example.examplemod</span><span class="p">;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.ConfigSection</span><span class="p">;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.ConfigSpec</span><span class="p">;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.RegisteredConfig</span><span class="p">;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.RestartRequirement</span><span class="p">;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.SyrupConfigManager</span><span class="p">;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.value.BooleanConfigValue</span><span class="p">;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.value.EnumConfigValue</span><span class="p">;</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.value.IntConfigValue</span><span class="p">;</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.value.StringConfigValue</span><span class="p">;</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.value.StringListConfigValue</span><span class="p">;</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.List</span><span class="p">;</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="kd">public</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ModConfig</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">enum</span><span class="w"> </span><span class="n">LogLevel</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="n">QUIET</span><span class="p">,</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="n">NORMAL</span><span class="p">,</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">        </span><span class="n">VERBOSE</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">ConfigSpec</span><span class="w"> </span><span class="n">SPEC</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ConfigSpec</span><span class="p">.</span><span class="na">builder</span><span class="p">(</span><span class="s">"example_mod"</span><span class="p">)</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">            </span><span class="p">.</span><span class="na">header</span><span class="p">(</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">                    </span><span class="s">"Example Mod configuration."</span><span class="p">,</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">                    </span><span class="s">"Edit this file, then use the mod's reload command."</span>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">            </span><span class="p">)</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">            </span><span class="p">.</span><span class="na">build</span><span class="p">();</span>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">ConfigSection</span><span class="w"> </span><span class="n">GAMEPLAY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">SPEC</span><span class="p">.</span><span class="na">section</span><span class="p">(</span>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">            </span><span class="s">"gameplay"</span><span class="p">,</span>
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">            </span><span class="s">"Settings that change gameplay."</span>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">BooleanConfigValue</span><span class="w"> </span><span class="n">ENABLED</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GAMEPLAY</span><span class="p">.</span><span class="na">booleanValue</span><span class="p">(</span>
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">            </span><span class="s">"enabled"</span><span class="p">,</span>
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="w">            </span><span class="kc">true</span><span class="p">,</span>
+</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">            </span><span class="s">"Enable the main feature."</span>
+</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">IntConfigValue</span><span class="w"> </span><span class="n">SEARCH_RADIUS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GAMEPLAY</span><span class="p">.</span><span class="na">intValue</span><span class="p">(</span>
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">            </span><span class="s">"search_radius"</span><span class="p">,</span>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="w">            </span><span class="mi">16</span><span class="p">,</span>
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">            </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">            </span><span class="mi">128</span><span class="p">,</span>
+</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="w">            </span><span class="s">"Maximum search radius in blocks."</span>
+</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-0-48"><a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a>
+</span><span id="__span-0-49"><a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">StringConfigValue</span><span class="w"> </span><span class="n">CHANNEL</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GAMEPLAY</span><span class="p">.</span><span class="na">validatedStringValue</span><span class="p">(</span>
+</span><span id="__span-0-50"><a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a><span class="w">            </span><span class="s">"channel"</span><span class="p">,</span>
+</span><span id="__span-0-51"><a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a><span class="w">            </span><span class="s">"global"</span><span class="p">,</span>
+</span><span id="__span-0-52"><a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a><span class="w">            </span><span class="s">"Channel name used by the feature."</span><span class="p">,</span>
+</span><span id="__span-0-53"><a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a><span class="w">            </span><span class="n">value</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">value</span><span class="p">.</span><span class="na">matches</span><span class="p">(</span><span class="s">"[a-z0-9_]+"</span><span class="p">),</span>
+</span><span id="__span-0-54"><a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a><span class="w">            </span><span class="s">"Use lowercase letters, numbers, and underscores"</span>
+</span><span id="__span-0-55"><a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-0-56"><a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a>
+</span><span id="__span-0-57"><a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">StringListConfigValue</span><span class="w"> </span><span class="n">BLOCKED_WORLDS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GAMEPLAY</span><span class="p">.</span><span class="na">stringListValue</span><span class="p">(</span>
+</span><span id="__span-0-58"><a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a><span class="w">            </span><span class="s">"blocked_worlds"</span><span class="p">,</span>
+</span><span id="__span-0-59"><a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a><span class="w">            </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="s">"minecraft:the_end"</span><span class="p">),</span>
+</span><span id="__span-0-60"><a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a><span class="w">            </span><span class="s">"Dimension IDs where the feature is disabled."</span>
+</span><span id="__span-0-61"><a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-0-62"><a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a>
+</span><span id="__span-0-63"><a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">ConfigSection</span><span class="w"> </span><span class="n">ADVANCED</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">SPEC</span><span class="p">.</span><span class="na">section</span><span class="p">(</span>
+</span><span id="__span-0-64"><a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a><span class="w">            </span><span class="s">"advanced"</span><span class="p">,</span>
+</span><span id="__span-0-65"><a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a><span class="w">            </span><span class="s">"Settings for server administrators."</span>
+</span><span id="__span-0-66"><a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-0-67"><a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a>
+</span><span id="__span-0-68"><a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">EnumConfigValue</span><span class="o">&lt;</span><span class="n">LogLevel</span><span class="o">&gt;</span><span class="w"> </span><span class="n">LOG_LEVEL</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ADVANCED</span><span class="p">.</span><span class="na">enumValue</span><span class="p">(</span>
+</span><span id="__span-0-69"><a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a><span class="w">            </span><span class="s">"log_level"</span><span class="p">,</span>
+</span><span id="__span-0-70"><a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a><span class="w">            </span><span class="n">LogLevel</span><span class="p">.</span><span class="na">class</span><span class="p">,</span>
+</span><span id="__span-0-71"><a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a><span class="w">            </span><span class="n">LogLevel</span><span class="p">.</span><span class="na">NORMAL</span><span class="p">,</span>
+</span><span id="__span-0-72"><a id="__codelineno-0-72" name="__codelineno-0-72" href="#__codelineno-0-72"></a><span class="w">            </span><span class="s">"Control how much information the mod writes to the log."</span>
+</span><span id="__span-0-73"><a id="__codelineno-0-73" name="__codelineno-0-73" href="#__codelineno-0-73"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-0-74"><a id="__codelineno-0-74" name="__codelineno-0-74" href="#__codelineno-0-74"></a>
+</span><span id="__span-0-75"><a id="__codelineno-0-75" name="__codelineno-0-75" href="#__codelineno-0-75"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">StringConfigValue</span><span class="w"> </span><span class="n">STORAGE_MODE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ADVANCED</span><span class="p">.</span><span class="na">stringValue</span><span class="p">(</span>
+</span><span id="__span-0-76"><a id="__codelineno-0-76" name="__codelineno-0-76" href="#__codelineno-0-76"></a><span class="w">            </span><span class="s">"storage_mode"</span><span class="p">,</span>
+</span><span id="__span-0-77"><a id="__codelineno-0-77" name="__codelineno-0-77" href="#__codelineno-0-77"></a><span class="w">            </span><span class="s">"safe"</span><span class="p">,</span>
+</span><span id="__span-0-78"><a id="__codelineno-0-78" name="__codelineno-0-78" href="#__codelineno-0-78"></a><span class="w">            </span><span class="s">"Storage system that the mod uses."</span><span class="p">,</span>
+</span><span id="__span-0-79"><a id="__codelineno-0-79" name="__codelineno-0-79" href="#__codelineno-0-79"></a><span class="w">            </span><span class="n">RestartRequirement</span><span class="p">.</span><span class="na">REQUIRED</span>
+</span><span id="__span-0-80"><a id="__codelineno-0-80" name="__codelineno-0-80" href="#__codelineno-0-80"></a><span class="w">    </span><span class="p">);</span>
+</span><span id="__span-0-81"><a id="__codelineno-0-81" name="__codelineno-0-81" href="#__codelineno-0-81"></a>
+</span><span id="__span-0-82"><a id="__codelineno-0-82" name="__codelineno-0-82" href="#__codelineno-0-82"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">RegisteredConfig</span><span class="w"> </span><span class="n">FILE</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-0-83"><a id="__codelineno-0-83" name="__codelineno-0-83" href="#__codelineno-0-83"></a><span class="w">            </span><span class="n">SyrupConfigManager</span><span class="p">.</span><span class="na">getInstance</span><span class="p">().</span><span class="na">register</span><span class="p">(</span><span class="n">SPEC</span><span class="p">);</span>
+</span><span id="__span-0-84"><a id="__codelineno-0-84" name="__codelineno-0-84" href="#__codelineno-0-84"></a>
+</span><span id="__span-0-85"><a id="__codelineno-0-85" name="__codelineno-0-85" href="#__codelineno-0-85"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="nf">ModConfig</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-86"><a id="__codelineno-0-86" name="__codelineno-0-86" href="#__codelineno-0-86"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-87"><a id="__codelineno-0-87" name="__codelineno-0-87" href="#__codelineno-0-87"></a>
+</span><span id="__span-0-88"><a id="__codelineno-0-88" name="__codelineno-0-88" href="#__codelineno-0-88"></a><span class="w">    </span><span class="cm">/** Call this one time from the mod initializer. */</span>
+</span><span id="__span-0-89"><a id="__codelineno-0-89" name="__codelineno-0-89" href="#__codelineno-0-89"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">initialize</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-90"><a id="__codelineno-0-90" name="__codelineno-0-90" href="#__codelineno-0-90"></a><span class="w">        </span><span class="c1">// This method loads and registers the config specification.</span>
+</span><span id="__span-0-91"><a id="__codelineno-0-91" name="__codelineno-0-91" href="#__codelineno-0-91"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-92"><a id="__codelineno-0-92" name="__codelineno-0-92" href="#__codelineno-0-92"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>Syrup Library writes sections and values in their declaration order. The <code>register(SPEC)</code> call locks the specification. Declare all sections and values before this call.</p>
+<p>Config IDs and keys have these rules:</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Rule</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Config ID</td>
+<td>Start with a lowercase letter. Use lowercase letters, numbers, <code>_</code>, and <code>-</code>. Use a maximum of 64 characters.</td>
+<td><code>example_mod</code></td>
+</tr>
+<tr>
+<td>Section or value key</td>
+<td>Start with a lowercase letter. Use lowercase letters, numbers, and <code>_</code>.</td>
+<td><code>search_radius</code></td>
+</tr>
+</tbody>
+</table>
+<p>Do not put a path or a file extension in the config ID. Syrup Library uses this file path: <code>&lt;config-directory&gt;/&lt;config-id&gt;.json5</code>.</p>
+<h2 id="register-the-config">Register the config<a class="headerlink" href="#register-the-config" title="Permanent link">¶</a></h2>
+<p>Call your config class one time from your mod initializer:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">package</span><span class="w"> </span><span class="nn">com.example.examplemod</span><span class="p">;</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.fabricmc.api.ModInitializer</span><span class="p">;</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="kd">public</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ExampleMod</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">ModInitializer</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nd">@Override</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onInitialize</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">        </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">initialize</span><span class="p">();</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>If the file does not exist, the <code>register</code> method creates it. Then, the method loads the file. Register each config ID only one time.</p>
+<p>The library creates this type of file from the example specification:</p>
+<div class="language-json5 highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c">/*</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="c"> * Example Mod configuration.</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c"> * Edit this file, then use the mod's reload command.</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c"> */</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">{</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">  </span><span class="c1">// Settings that change gameplay.</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">  </span><span class="nv">gameplay</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="c">/*</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="c">     * Enable the main feature.</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="c">     * Default: true</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="c">     */</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">    </span><span class="nv">enabled</span><span class="p">:</span><span class="w"> </span><span class="k">true</span><span class="p">,</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">    </span><span class="c">/*</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="c">     * Maximum search radius in blocks.</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="c">     * Default: 16 | Range: 1 ~ 128</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="c">     */</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">    </span><span class="nv">search_radius</span><span class="p">:</span><span class="w"> </span><span class="mf">16</span><span class="p">,</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">    </span><span class="c">/*</span>
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="c">     * Channel name used by the feature.</span>
+</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="c">     * Default: "global"</span>
+</span><span id="__span-2-23"><a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="c">     */</span>
+</span><span id="__span-2-24"><a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">    </span><span class="nv">channel</span><span class="p">:</span><span class="w"> </span><span class="s">"global"</span><span class="p">,</span>
+</span><span id="__span-2-25"><a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a>
+</span><span id="__span-2-26"><a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="w">    </span><span class="c">/*</span>
+</span><span id="__span-2-27"><a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a><span class="c">     * Dimension IDs where the feature is disabled.</span>
+</span><span id="__span-2-28"><a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a><span class="c">     * Default: ["minecraft:the_end"]</span>
+</span><span id="__span-2-29"><a id="__codelineno-2-29" name="__codelineno-2-29" href="#__codelineno-2-29"></a><span class="c">     */</span>
+</span><span id="__span-2-30"><a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a><span class="w">    </span><span class="nv">blocked_worlds</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s">"minecraft:the_end"</span><span class="p">]</span>
+</span><span id="__span-2-31"><a id="__codelineno-2-31" name="__codelineno-2-31" href="#__codelineno-2-31"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-2-32"><a id="__codelineno-2-32" name="__codelineno-2-32" href="#__codelineno-2-32"></a>
+</span><span id="__span-2-33"><a id="__codelineno-2-33" name="__codelineno-2-33" href="#__codelineno-2-33"></a><span class="w">  </span><span class="c1">// Settings for server administrators.</span>
+</span><span id="__span-2-34"><a id="__codelineno-2-34" name="__codelineno-2-34" href="#__codelineno-2-34"></a><span class="w">  </span><span class="nv">advanced</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-35"><a id="__codelineno-2-35" name="__codelineno-2-35" href="#__codelineno-2-35"></a><span class="w">    </span><span class="c">/*</span>
+</span><span id="__span-2-36"><a id="__codelineno-2-36" name="__codelineno-2-36" href="#__codelineno-2-36"></a><span class="c">     * Control how much information the mod writes to the log.</span>
+</span><span id="__span-2-37"><a id="__codelineno-2-37" name="__codelineno-2-37" href="#__codelineno-2-37"></a><span class="c">     * Default: "normal"</span>
+</span><span id="__span-2-38"><a id="__codelineno-2-38" name="__codelineno-2-38" href="#__codelineno-2-38"></a><span class="c">     */</span>
+</span><span id="__span-2-39"><a id="__codelineno-2-39" name="__codelineno-2-39" href="#__codelineno-2-39"></a><span class="w">    </span><span class="nv">log_level</span><span class="p">:</span><span class="w"> </span><span class="s">"normal"</span><span class="p">,</span>
+</span><span id="__span-2-40"><a id="__codelineno-2-40" name="__codelineno-2-40" href="#__codelineno-2-40"></a>
+</span><span id="__span-2-41"><a id="__codelineno-2-41" name="__codelineno-2-41" href="#__codelineno-2-41"></a><span class="w">    </span><span class="c">/*</span>
+</span><span id="__span-2-42"><a id="__codelineno-2-42" name="__codelineno-2-42" href="#__codelineno-2-42"></a><span class="c">     * Storage system that the mod uses.</span>
+</span><span id="__span-2-43"><a id="__codelineno-2-43" name="__codelineno-2-43" href="#__codelineno-2-43"></a><span class="c">     * Requires a server restart.</span>
+</span><span id="__span-2-44"><a id="__codelineno-2-44" name="__codelineno-2-44" href="#__codelineno-2-44"></a><span class="c">     * Default: "safe"</span>
+</span><span id="__span-2-45"><a id="__codelineno-2-45" name="__codelineno-2-45" href="#__codelineno-2-45"></a><span class="c">     */</span>
+</span><span id="__span-2-46"><a id="__codelineno-2-46" name="__codelineno-2-46" href="#__codelineno-2-46"></a><span class="w">    </span><span class="nv">storage_mode</span><span class="p">:</span><span class="w"> </span><span class="s">"safe"</span>
+</span><span id="__span-2-47"><a id="__codelineno-2-47" name="__codelineno-2-47" href="#__codelineno-2-47"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-2-48"><a id="__codelineno-2-48" name="__codelineno-2-48" href="#__codelineno-2-48"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>JSON5 supports comments, object keys without quotation marks, and commas after the last value.</p>
+<h2 id="read-values">Read values<a class="headerlink" href="#read-values" title="Permanent link">¶</a></h2>
+<p>Call <code>get()</code> on a value handle. The method returns the declared Java type:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ModConfig</span><span class="p">.</span><span class="na">ENABLED</span><span class="p">.</span><span class="na">get</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">radius</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">SEARCH_RADIUS</span><span class="p">.</span><span class="na">get</span><span class="p">();</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">channel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">CHANNEL</span><span class="p">.</span><span class="na">get</span><span class="p">();</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">LogLevel</span><span class="w"> </span><span class="n">level</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">LOG_LEVEL</span><span class="p">.</span><span class="na">get</span><span class="p">();</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">blockedWorlds</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">BLOCKED_WORLDS</span><span class="p">.</span><span class="na">get</span><span class="p">();</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>You cannot change a string list that the library returns. Make a copy before you change the list.</p>
+<h3 id="read-one-fixed-set-of-values">Read one fixed set of values<a class="headerlink" href="#read-one-fixed-set-of-values" title="Permanent link">¶</a></h3>
+<p>A snapshot is a fixed set of config values. A snapshot does not change after the library creates it.</p>
+<p>During a reload, the library makes all new values active at the same time. Use a snapshot when one operation reads two or more related values:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.ConfigSnapshot</span><span class="p">;</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">ConfigSnapshot</span><span class="w"> </span><span class="n">config</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">FILE</span><span class="p">.</span><span class="na">snapshot</span><span class="p">();</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="kt">boolean</span><span class="w"> </span><span class="n">enabled</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">config</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">ModConfig</span><span class="p">.</span><span class="na">ENABLED</span><span class="p">);</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="kt">int</span><span class="w"> </span><span class="n">radius</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">config</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">ModConfig</span><span class="p">.</span><span class="na">SEARCH_RADIUS</span><span class="p">);</span>
+</span></code></pre></div>
+<p>Use <code>get()</code> to read one independent value. Use <code>snapshot()</code> when all reads must use the same set of values.</p>
+<h2 id="reload-the-file">Reload the file<a class="headerlink" href="#reload-the-file" title="Permanent link">¶</a></h2>
+<p>Syrup Library does not reload a config automatically. Call <code>reload()</code> from your command, file monitor, or other reload action:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.diagnostic.ConfigIssue</span><span class="p">;</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">net.syrupstudios.syruplibrary.config.diagnostic.ConfigLoadResult</span><span class="p">;</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">ConfigLoadResult</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">FILE</span><span class="p">.</span><span class="na">reload</span><span class="p">();</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">result</span><span class="p">.</span><span class="na">successful</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">    </span><span class="c1">// The previous valid config is still active.</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="p">}</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">ConfigIssue</span><span class="w"> </span><span class="n">issue</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">result</span><span class="p">.</span><span class="na">issues</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">issue</span><span class="p">.</span><span class="na">severity</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">" "</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">issue</span><span class="p">.</span><span class="na">path</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">": "</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">issue</span><span class="p">.</span><span class="na">message</span><span class="p">());</span>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>Use <code>initialResult()</code> to get the result of the first load:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">ConfigLoadResult</span><span class="w"> </span><span class="n">firstLoad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ModConfig</span><span class="p">.</span><span class="na">FILE</span><span class="p">.</span><span class="na">initialResult</span><span class="p">();</span>
+</span></code></pre></div>
+<p>A successful load result can contain warnings. Use <code>hasWarnings()</code> if your command must report changed or rejected values.</p>
+<h2 id="restart-only-values">Restart-only values<a class="headerlink" href="#restart-only-values" title="Permanent link">¶</a></h2>
+<p>By default, values use <code>RestartRequirement.NONE</code>. A reload makes these values active immediately.</p>
+<p>Use <code>RestartRequirement.REQUIRED</code> for a value that must stay unchanged until the next game start:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">StringConfigValue</span><span class="w"> </span><span class="n">STORAGE_MODE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ADVANCED</span><span class="p">.</span><span class="na">stringValue</span><span class="p">(</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">        </span><span class="s">"storage_mode"</span><span class="p">,</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">        </span><span class="s">"safe"</span><span class="p">,</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">        </span><span class="s">"Storage system that the mod uses."</span><span class="p">,</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">        </span><span class="n">RestartRequirement</span><span class="p">.</span><span class="na">REQUIRED</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="p">);</span>
+</span></code></pre></div>
+<p>For a value that requires a restart:</p>
+<ul>
+<li><code>get()</code> returns the value that is active now.</li>
+<li><code>configuredValue()</code> returns the most recent valid value from the file.</li>
+<li><code>startupValue()</code> returns the value that was loaded at game start.</li>
+</ul>
+<p>After a reload, <code>get()</code> and <code>startupValue()</code> stay unchanged. The configured value becomes active after a restart.</p>
+<h2 id="available-value-types">Available value types<a class="headerlink" href="#available-value-types" title="Permanent link">¶</a></h2>
+<p>You can add values to a <code>ConfigSpec</code> or to a <code>ConfigSection</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Java type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>booleanValue</code></td>
+<td><code>Boolean</code></td>
+<td>Accepts <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>intValue</code></td>
+<td><code>Integer</code></td>
+<td>Requires an inclusive minimum and maximum.</td>
+</tr>
+<tr>
+<td><code>longValue</code></td>
+<td><code>Long</code></td>
+<td>Requires an inclusive minimum and maximum.</td>
+</tr>
+<tr>
+<td><code>doubleValue</code></td>
+<td><code>Double</code></td>
+<td>Requires a default, minimum, and maximum. These numbers cannot be infinity or <code>NaN</code>.</td>
+</tr>
+<tr>
+<td><code>stringValue</code></td>
+<td><code>String</code></td>
+<td>Accepts any string.</td>
+</tr>
+<tr>
+<td><code>validatedStringValue</code></td>
+<td><code>String</code></td>
+<td>Uses your validation function and message.</td>
+</tr>
+<tr>
+<td><code>stringListValue</code></td>
+<td><code>List&lt;String&gt;</code></td>
+<td>Returns a list that you cannot change.</td>
+</tr>
+<tr>
+<td><code>enumValue</code></td>
+<td>Your enum type</td>
+<td>Stores enum names as lowercase strings. It accepts uppercase and lowercase input.</td>
+</tr>
+</tbody>
+</table>
+<p>For each value method, you can also specify a <code>RestartRequirement</code>.</p>
+<p>A default number must be in its specified range. If the default is not valid, the library throws an exception when it creates the specification.</p>
+<h2 id="invalid-and-missing-data">Invalid and missing data<a class="headerlink" href="#invalid-and-missing-data" title="Permanent link">¶</a></h2>
+<p>Syrup Library treats a value error differently from a file error.</p>
+<table>
+<thead>
+<tr>
+<th>Input problem</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A value is missing</td>
+<td>The library uses the default. It adds the missing value to the file.</td>
+</tr>
+<tr>
+<td>A number is outside its range</td>
+<td>The library changes the number to the nearest limit. It also adds a warning.</td>
+</tr>
+<tr>
+<td>A value has the wrong type</td>
+<td>The library uses the default. It also adds a warning.</td>
+</tr>
+<tr>
+<td>A string does not pass its validation function</td>
+<td>The library uses the default. It also adds a warning.</td>
+</tr>
+<tr>
+<td>An enum name is not known</td>
+<td>The library uses the default. It also adds a warning.</td>
+</tr>
+<tr>
+<td>A key is not in the specification</td>
+<td>The library ignores the key. It also adds an information message.</td>
+</tr>
+<tr>
+<td>The JSON5 file does not load</td>
+<td>The reload fails. The last valid values stay active.</td>
+</tr>
+</tbody>
+</table>
+<p>The library uses each default as a safe replacement value. It does not return <code>null</code> for a declared value.</p>
+<h2 id="use-more-than-one-config-file">Use more than one config file<a class="headerlink" href="#use-more-than-one-config-file" title="Permanent link">¶</a></h2>
+<p>Create and register a different <code>ConfigSpec</code> for each file. Give each specification a unique config ID:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">ConfigSpec</span><span class="w"> </span><span class="n">clientSpec</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ConfigSpec</span><span class="p">.</span><span class="na">builder</span><span class="p">(</span><span class="s">"example_mod_client"</span><span class="p">).</span><span class="na">build</span><span class="p">();</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">ConfigSpec</span><span class="w"> </span><span class="n">serverSpec</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ConfigSpec</span><span class="p">.</span><span class="na">builder</span><span class="p">(</span><span class="s">"example_mod_server"</span><span class="p">).</span><span class="na">build</span><span class="p">();</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="n">RegisteredConfig</span><span class="w"> </span><span class="n">clientConfig</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">SyrupConfigManager</span><span class="p">.</span><span class="na">getInstance</span><span class="p">().</span><span class="na">register</span><span class="p">(</span><span class="n">clientSpec</span><span class="p">);</span>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="n">RegisteredConfig</span><span class="w"> </span><span class="n">serverConfig</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">SyrupConfigManager</span><span class="p">.</span><span class="na">getInstance</span><span class="p">().</span><span class="na">register</span><span class="p">(</span><span class="n">serverSpec</span><span class="p">);</span>
+</span></code></pre></div>
+<p>This code creates <code>example_mod_client.json5</code> and <code>example_mod_server.json5</code>. The files are in the config directory of the active loader.</p>
 
 
 
@@ -3247,7 +3708,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 2, 2025 08:53:22 UTC"><span class="timeago" datetime="2025-12-02T08:53:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 2, 2025 08:53:22 UTC">2025-12-02</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="July 31, 2026 20:28:08 UTC"><span class="timeago" datetime="2026-07-31T20:28:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 31, 2026 20:28:08 UTC">2026-07-31</span>
   </span>
 
     
@@ -3257,7 +3718,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 2, 2025 08:53:22 UTC"><span class="timeago" datetime="2025-12-02T08:53:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 2, 2025 08:53:22 UTC">2025-12-02</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="July 31, 2026 20:28:08 UTC"><span class="timeago" datetime="2026-07-31T20:28:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 31, 2026 20:28:08 UTC">2026-07-31</span>
   </span>
 
     
@@ -3306,7 +3767,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer">
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lucky Duck's Fortune Cookies">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Syrup Library">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
@@ -3316,20 +3777,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Lucky Duck's Fortune Cookies
+                Syrup Library
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../viaromana/" class="md-footer__link md-footer__link--next" aria-label="Next: Via Romana: Infrastructure-Driven Fast Travel">
+          <a href="../../plushie-friends/" class="md-footer__link md-footer__link--next" aria-label="Next: Plushie Friends">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Via Romana: Infrastructure-Driven Fast Travel
+                Plushie Friends
               </div>
             </div>
             <div class="md-footer__button md-icon">
